@@ -62,8 +62,8 @@ def Extract_data_from_subject(root_dir,N_S,datatype):
     
     
     Y = np.vstack((y.get(1),y.get(2),y.get(3))) 
+  
     
-
     return X, Y
 
 def Extract_block_data_from_subject(root_dir,N_S,datatype,N_B):
